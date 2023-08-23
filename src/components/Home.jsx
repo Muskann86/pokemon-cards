@@ -28,14 +28,14 @@ function Home() {
           alt="Pokémon"
         />
         <div className="card-body">
-          <h5 className="card-title fw-bold fs-3 text-capitalize">
+          <h5 className="card-title fw-bold fs-2 text-capitalize">
             Name : {pokemon?.name}
           </h5>
           <ul className="list-unstyled">
-            <li className="card-text fw-bold fs-3">
+            <li className="card-text fw-bold fs-2">
               Height : {pokemon?.height}
             </li>
-            <li className="card-text fw-bold fs-3">
+            <li className="card-text fw-bold fs-2">
               Weight : {pokemon?.weight}
             </li>
           </ul>
