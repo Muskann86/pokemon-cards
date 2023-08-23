@@ -28,20 +28,20 @@ function Home() {
           alt="Pokémon"
         />
         <div className="card-body">
-          <h5 className="card-title fw-bold fs-2 text-capitalize">
+          <h5 className="card-title fw-bold fs-1 text-capitalize">
             Name : {pokemon?.name}
           </h5>
           <ul className="list-unstyled">
-            <li className="card-text fw-bold fs-2">
+            <li className="card-text fw-bold fs-1">
               Height : {pokemon?.height}
             </li>
-            <li className="card-text fw-bold fs-2">
+            <li className="card-text fw-bold fs-1">
               Weight : {pokemon?.weight}
             </li>
           </ul>
           <ul className="list-group list-group-flush">
             {pokemon?.types.map((type) => (
-              <li className="card-footer list-group-item text-capitalize fw-bold fs-2">
+              <li className="card-footer list-group-item text-capitalize fw-bold fs-1">
                 Type : {type.type.name}
               </li>
             ))}
